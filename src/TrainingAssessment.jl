@@ -95,7 +95,7 @@ export
         \\hline 
         $(join(training_assessment_results,"\n"))
         \\hline
-        \\end{longtable}
+        \\end{longtable}}
         \\end{center}
     
         The assessment of the candidate's skills revealed several specific areas that will be improved with the training focus of \\trainingFocus. 
