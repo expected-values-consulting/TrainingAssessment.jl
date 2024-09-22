@@ -46,7 +46,6 @@ export
 
     function write_training_assessment_results_to_table(training_assessment_results::Vector{String})
         latex_code = """
-        \\chapter{Analysis of Current Skills and Experience}\\label{ch:candidate_analysis}
         \\chapterimage{graph2.png}
         \\section{Analysis of \\traineeName Current Skills \\& Experience}
         Candidate skills assessment yielded ranking from \$1\$ to \$5\$, no skill to completely, but in need of update,  skilled respectively.
