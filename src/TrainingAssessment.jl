@@ -39,7 +39,7 @@ export
         @chain file_name begin
             read_training_assessment_file(_)
             @rtransform :current_code = map_to_latex_color(:Current_skills)
-            @rtransform :current_code_skill = string(:current_code, " ", :Skill, " \\\\")
+            @rtransform :current_code_skill = string(:current_code, " ", :Title, " \\\\")
             _.current_code_skill
         end
     end
